@@ -3,18 +3,30 @@ import emailjs from '@emailjs/browser';
  const ContactUs = () => {
   const form = useRef();
 
+  
+export const ContactUs = () => {
+  const form = useRef();
+  const [isSent, setIsSent] = useState(false);
+
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_eoqxwax', 'template_53i2umj', form.current, 'XHaZ7QSOYFbY384uu')
+    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
       .then((result) => {
-        alert("تم حجز الموعد بنجاح وسيتم التواصل معكم من قبل المؤسسة")
-      }, (error) => {
+          console.log(result.text);
+          setIsSent(true);
+          form.current.reset();
+        })
+      .catch((error) => {
           console.log(error.text);
       });
   };
 
   return (
+    <div>
+      {isSent ? (
+        <p>Email sent successfully!</p>
+      )
     <div className="contact">
         <div className="container">
         <div className="main_title">
