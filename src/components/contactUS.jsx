@@ -88,7 +88,7 @@ export const ContactUs = () => {
       <input type='date' name="date" />
       <label>تفاصيل الزيارة</label>
       <textarea name="message" resize='none' />
-      <button type='submit'>send</button>
+      <button htmlType='submit'>send</button>
     </form>
     </div>
     </div>
