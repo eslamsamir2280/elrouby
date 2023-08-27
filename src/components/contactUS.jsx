@@ -26,7 +26,7 @@ export const ContactUs = () => {
     <div>
       {isSent ? (
         <p>Email sent successfully!</p>
-      )
+      ):(
     <div className="contact">
         <div className="container">
         <div className="main_title">
