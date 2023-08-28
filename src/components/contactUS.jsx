@@ -3,30 +3,18 @@ import emailjs from '@emailjs/browser';
  const ContactUs = () => {
   const form = useRef();
 
-  
-export const ContactUs = () => {
-  const form = useRef();
-  const [isSent, setIsSent] = useState(false);
-
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+    emailjs.sendForm('service_eoqxwax', 'template_53i2umj', form.current, 'XHaZ7QSOYFbY384uu')
       .then((result) => {
-          console.log(result.text);
-          setIsSent(true);
-          form.current.reset();
-        })
-      .catch((error) => {
+        alert("تم حجز الموعد بنجاح وسيتم التواصل معكم من قبل المؤسسة")
+      }, (error) => {
           console.log(error.text);
       });
+       form.current.reset()
   };
-
   return (
-    <div>
-      {isSent ? (
-        <p>Email sent successfully!</p>
-      ):(
     <div className="contact">
         <div className="container">
         <div className="main_title">
@@ -81,14 +69,14 @@ export const ContactUs = () => {
     <div className="form_left">
         <form ref={form} onSubmit={sendEmail}>
       <label>الأسم بالكامل</label>
-      <input type="text" name="name" />
+      <input type="text" name="name" required />
       <label>رقم التليفون</label>
-      <input type="text" name="number" />
+      <input type="text" name="number" required/>
       <label>تاريخ الزيارة</label>
-      <input type='date' name="date" />
+      <input type='date' name="date" required/>
       <label>تفاصيل الزيارة</label>
-      <textarea name="message" resize='none' />
-      <button htmlType='submit'>send</button>
+      <textarea name="message"required />
+      <button type='submit'>send</button>
     </form>
     </div>
     </div>
