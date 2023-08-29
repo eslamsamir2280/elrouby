@@ -15,6 +15,14 @@ body {
 a {
   text-decoration: none;
 }
+.whatsapp {
+  position: fixed;
+  right: 15px;
+  bottom: 30px;
+}
+.whatsapp img {
+  width: 45px;
+}
 .container {
   padding-left: 10px;
   padding-right: 10px;
