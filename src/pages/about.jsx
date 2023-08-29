@@ -11,6 +11,11 @@ import React from 'react'
     <AboutUs/>
     <Whyus/>
     <Footer />
+     <div className="whatsapp">
+        <a href="https://wa.me/+201023343014">
+          <img src="whatsapp (3).png" alt="whatsapp" />
+        </a>
+      </div>
     </>
   )
 }
