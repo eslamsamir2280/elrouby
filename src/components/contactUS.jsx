@@ -60,9 +60,9 @@ import emailjs from '@emailjs/browser';
                         <i class="uil uil-envelope-alt"></i>
                         <p>mahmoudelrouby17@gmail.com</p>
                        </div>
-                        <div className="social">
-                        <i class="uil uil-facebook"></i>
-                        <i class="uil uil-whatsapp-alt"></i></div>
+                         <div className="social">
+                        <a href="https://www.facebook.com/profile.php?id=100064144837296"><i class="uil uil-facebook"></i></a>
+                        <a href="https://wa.me/+201023343014"><i class="uil uil-whatsapp-alt"></i></a></div>
                         </div>
                     </div>
 
