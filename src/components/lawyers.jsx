@@ -10,57 +10,63 @@ import sarah from '../سارة هشام.jpg'
 import omarAbdElrahim from '../عمر عبدالرحيم.jpg'
 import nada from "../ندي مجدي.jpg"
 import ahmedMohamedy from '../احمد المحمدي.jpg'
+import fatma form "../818a404d-3468-4414-b34b-206759c46d9a.jpg"
 import { Link } from 'react-router-dom'
 let data = [{
-    name:" عمرو عزت",
+    name:"الأستاذ عمرو عزت",
     Image:amr_azt,
     title:"المحامي بالاستئناف والتخصص في مجال البنوك"
 },
 {
-    name:'كريم حسين',
+    name:'الأستاذ كريم حسين',
     Image:kareem_hassen,
     title :"المحامي المتخصص في قضايا الاسرة والجرائم الالكترونية"
 },
 {
-    name:'محمود عفارة',
+    name:'الأستاذ محمود عفارة',
     Image:mahmoud,
     title:"المحامي المتخصص بالقانون الجنائي"
 },
 {
-    name:"رضوي صلاح",
+    name:"الأستاذة رضوي صلاح",
     Image:radwa,
     title:"محامية متخصصة في مجال العقارات"
 },
 {
-    name:"الاء رمضان",
+    name:"الأستاذة الاء رمضان",
     Image:alaaRamadan,
     title:"المحامية المتخصصة في القانون المدني وقانون الاسرة"
 },
 {
-    name:"الاء صلاح",
+    name:"الأستاذة الاء صلاح",
     Image:alaaSalah,
     title:"المحامية المتخصصة في القانون الجنائي والشركات"
 },
 {
-    name:"سارة هشام",
+    name:"الأستاذة سارة هشام",
     Image:sarah,
     title:"المحامية والمترجمة القانونية المتخصصة في عقود الاستثمار"
 },
 {
-    name:"عمر عبدالرحيم",
+    name:"الأستاذ عمر عبدالرحيم",
     Image:omarAbdElrahim,
     title:"محامي متخصص في القانون الاداري والقضايا العمالية"
 },
 {
-    name:"ندي مجدي ",
+    name:"الأستاذة ندي مجدي",
     Image:nada,
     title:"المحامية المتخصصة في مجال الشركات ومنازعات الاستثمار"
 },
 {
-    name:"احمد المحمدي",
+    name:"الأستاذ احمد المحمدي",
     Image:ahmedMohamedy,
     title:"المتخصص فى العقود والقانون المدنى"
 }
+            {
+    name:"الأستاذة فاطمة الماظ",
+    Image:fatma,
+    title:"المتخصص فى العقود والقانون المدنى"
+},
 ]
  
  const Lawyers = () => {
