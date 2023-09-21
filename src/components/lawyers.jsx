@@ -61,7 +61,7 @@ let data = [{
     name:"الأستاذ احمد المحمدي",
     Image:ahmedMohamedy,
     title:"المتخصص فى العقود والقانون المدنى"
-}
+},
             {
     name:"الأستاذة فاطمة الماظ",
     Image:fatma,
