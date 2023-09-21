@@ -10,7 +10,7 @@ import sarah from '../سارة هشام.jpg'
 import omarAbdElrahim from '../عمر عبدالرحيم.jpg'
 import nada from "../ندي مجدي.jpg"
 import ahmedMohamedy from '../احمد المحمدي.jpg'
-import fatma form "../818a404d-3468-4414-b34b-206759c46d9a.jpg"
+import fatma from "../818a404d-3468-4414-b34b-206759c46d9a.jpg"
 import { Link } from 'react-router-dom'
 let data = [{
     name:"الأستاذ عمرو عزت",
