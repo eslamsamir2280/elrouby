@@ -13,7 +13,7 @@ import execution from '../resize.jpeg'
             <div className="important_content">
                 <div className="box">
                     <div className="img_box">
-                        <img src={imageelrouby} alt="" />
+                        <img src="https://res.cloudinary.com/defcamc5x/image/upload/v1775776058/iilvdr8dhvuo1shdt36b.jpg" alt="" />
                     </div>
                     <div className="text">
                         <h2>الروبي : الحوار الوطني فرصة ذهبية ليشارك الجميع بأفكاره لخدمة الوطن</h2>
