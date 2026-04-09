@@ -1,5 +1,5 @@
 import React from 'react'
-import elrouby from '../IMG-20221112-WA0269.jpg'
+import elrouby from 'https://res.cloudinary.com/defcamc5x/image/upload/v1775776058/iilvdr8dhvuo1shdt36b.jpg'
 import amr_azt from '../عمرو عزت.jpg'
 import kareem_hassen from '../كريم حسين.jpg'
 import mahmoud from '../محمود عفارة.jpg'
